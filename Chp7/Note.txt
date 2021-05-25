@@ -1,1 +1,0 @@
-Print("fu*k world")
