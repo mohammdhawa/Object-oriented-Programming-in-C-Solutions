@@ -32,10 +32,10 @@ public:
 		return bMoney(money * n);
 	}
 	friend bMoney operator *(long double n, bMoney other) {
-		return bMoney(other.money + n);
+		return bMoney(other.money * n);
 	}
 	friend bMoney operator /(long double n, bMoney other) {
-		return bMoney(other.money + n);
+		return bMoney(other.money / n);
 	}
 	
 };
